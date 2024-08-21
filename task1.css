@@ -1,0 +1,103 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.bd{
+    border: 2px solid blue;
+    margin: 5px;
+}
+.bd-1{
+    border: 2px solid rgb(255, 0, 0);
+}
+.heading {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 197, 8);
+    
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box{
+    background-color: rgb(14, 5, 58);
+    width: 220px;
+    padding: 8px;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.box-heading{
+    color:aliceblue;
+    
+}
+
+.from-body{
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.from-select{
+    width: 170px;
+    height: 20px;
+}
+
+.input-body input{
+    margin-top: 5px;
+    /* width: 10px; */
+}
+.To-body{
+    background-color: antiquewhite;
+    padding: 2px;
+    border-radius: 2px;
+}
+.To-row{
+    display: flex;
+    /* background-color: greenyellow; */
+    justify-content: space-between;
+    align-items: center;
+}
+.to-input input{
+    height: 15px;
+    width: 100px;
+}
+.To-select{
+   margin: 5px;
+    
+}
+.btn{
+    background-color: rgb(63, 142, 216);
+    color: white;
+    border:none;
+    border-radius: 2px;
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.row{
+    display: flex;
+    justify-content:start;
+    /* align-items: ;  */
+} 
+
+@media (max-width:768px)
+{
+    .row{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.bottom{
+    text-align: center;
+}
